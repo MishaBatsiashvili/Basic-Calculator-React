@@ -1,0 +1,53 @@
+.App {
+  text-align: center;
+  width: 450px;
+  margin: 100px auto;
+}
+
+.main-input{
+  text-align: right;
+  border: 1px solid black;
+  margin: 0;
+  padding: 10px;
+}
+
+.numbersWrp{
+  display: flex;
+  align-items: flex-start;
+  margin: auto;
+}
+
+.numWrp{
+  width: 300px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.number{
+  padding: 10px;
+  margin: 1px;
+  border: 1px solid black;
+  flex-grow: 1;
+}
+
+.number:active{
+  background: rgb(187, 187, 187);
+}
+
+.operationsWrp{
+  flex-grow: 1;
+}
+
+.operation{
+  display: block;
+  padding: 10px;
+  margin: 1px;
+  border: 1px solid black;
+  background: rgb(255, 153, 0);
+  color: white;
+}
+
+.operation-selected{
+  background: rgb(61, 42, 12);
+  color: white;
+}
