@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  width: 450px;
+  width: 500px;
   margin: 100px auto;
 }
 
@@ -47,7 +47,27 @@
   color: white;
 }
 
+.operation:active{
+  background: rgb(212, 129, 3);
+  color: white;
+}
+
 .operation-selected{
   background: rgb(61, 42, 12);
   color: white;
+}
+
+.numbers, .operation, .numWrp{
+  user-select: none;
+}
+
+
+.functions-wrp{
+  width: 100px;
+}
+
+.history-item{
+  padding: 20px 10px;
+  border: 1px solid black;
+  margin: 2px;
 }
